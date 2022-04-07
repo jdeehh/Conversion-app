@@ -1,2 +1,2 @@
-# Conversion-app
-Conversion app for metric to imperial measurements
+# Unit Conversion-app
+Unit conversion app for metric to imperial measurements
