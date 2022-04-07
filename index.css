@@ -1,0 +1,67 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    max-height: 550px;
+    max-width: 100%;
+}
+
+h2{
+    font-size: 1.35rem; 
+}
+
+h3{
+    font-size: 0.9rem;
+    opacity: 95%;
+}
+
+p{
+    font-size: 0.95rem;
+    opacity: 70%;
+}
+
+.header, .num{
+    color: #fff;
+}
+
+p, h3{
+    color: #d2d2d2;
+    letter-spacing: 0.03rem
+}
+
+.header{
+    padding: 50px 20px;
+    background-image: linear-gradient(
+    45deg,
+    hsl(342deg 26% 20%) 0%,
+    hsl(353deg 34% 28%) 14%,
+    hsl(3deg 42% 36%) 29%,
+    hsl(13deg 50% 44%) 44%,
+    hsl(24deg 57% 52%) 59%,
+    hsl(34deg 65% 60%) 74%,
+    hsl(45deg 74% 69%) 88%,
+    hsl(55deg 81% 77%) 100%
+    );  
+}
+
+.header, .conversions{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    max-width: 3em;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.conversions{
+    padding: 30px 10px;
+    background: #1F2937;
+}
+
+
